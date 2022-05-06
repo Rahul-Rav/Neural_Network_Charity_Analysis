@@ -1,6 +1,7 @@
 # Neural_Network_Charity_Analysis
 
 ## Overview
+Alphabet Soup is a nonprofit philanthropic foundation that aids organizations who's focus is enviornmental protection. We are helping a programmer from Alphabet Soup to analyze the impact of each donation and the risk of potential recipients.
 Through the use of machine learning and neural networks and the features in the provided dataset, we create a binary classifier that is capable of predicting whether applicants will be successful if funded by Alphabet Soup.
 The main dataset used is a CSV containing more than 34,000 organizations that have received funding from Alphabet Soup over the years. Within this dataset are a number of columns that capture metadata about each organization, such as:
 
