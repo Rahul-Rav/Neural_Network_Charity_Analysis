@@ -21,12 +21,15 @@ The main dataset used is a CSV containing more than 34,000 organizations that ha
 ### *Data Preprocessing*
 
 * What variable(s) are considered the target(s) for your model?
+
 'IS_SUCCESSFUL' is considered to be the target for this model
 
 * What variable(s) are considered to be the features for your model?
+
 'APPLICATION_TYPE', 'AFFILIATION', 'CLASSIFICATION', 'USE_CASE', 'ORGANIZATION', 'INCOME_AMT', and 'SPECIAL_CONSIDERATIONS' are considered to be the features for this model
 
 * What variable(s) are neither targets nor features, and should be removed from the input data?
+
 'EIN' and 'Name' are neither targets nor features, and were removed from the input data.
 
 ![Screen Shot 2022-05-08 at 5 39 42 PM](https://user-images.githubusercontent.com/95504135/167316900-b9f072b5-536b-413b-8c88-51bb7936bf89.png)
@@ -35,14 +38,17 @@ The main dataset used is a CSV containing more than 34,000 organizations that ha
 ### *Compiling, Training, and Evaluating the Model*
 
 * How many neurons, layers, and activation functions did you select for your neural network model, and why?
+
 There are two 'hidden_nodes_layer' variables and have 80 and 30 neurons and 'relu' and 'sigmoid' are the activation functions used for the hidden layers.
 
 * Were you able to achieve the target model performance?
+
 The target mode performance was aimed to be higher than 75% and was not achieved, resulting in a 72% accuracy.
 
 ![Screen Shot 2022-05-08 at 5 37 01 PM](https://user-images.githubusercontent.com/95504135/167316827-dc68eb66-6876-47be-9d24-57f149223ae3.png)
 
 * What steps did you take to try and increase model performance?
+
 Optimization through the addition of hidden layers in order to increase the model performance was attempted in Deliverable 3.
 
 ![Screen Shot 2022-05-08 at 5 38 34 PM](https://user-images.githubusercontent.com/95504135/167316856-4714b452-90c9-4e1f-a225-85ea7e664399.png)
