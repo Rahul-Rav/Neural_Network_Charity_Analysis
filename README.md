@@ -31,3 +31,4 @@ The main dataset used is a CSV containing more than 34,000 organizations that ha
 * What steps did you take to try and increase model performance?
 
 ## Summary
+Even with the addition of more hidden layer, the accuracy target of 75% percent was not attained by the deep learning neural network model. It could be recommended to try the Random Forest Classifier, a Supervised Machine Learning model. Using this method would be less likely to be prone to influence of outliers.
